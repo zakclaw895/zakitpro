@@ -175,25 +175,21 @@ declare module 'astro:content' {
 	type DataEntryMap = {
 		"articles": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "articles";
-  data: any;
+  data: InferEntrySchema<"articles">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
 "scripts": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "scripts";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-"series": Record<string, {
-  id: string;
-  body?: string;
-  collection: "series";
-  data: any;
+  data: InferEntrySchema<"scripts">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
@@ -229,6 +225,6 @@ declare module 'astro:content' {
 		LiveContentConfig['collections'][C]['loader']
 	>;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../src/content/config.js");
 	export type LiveContentConfig = never;
 }

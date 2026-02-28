@@ -1,0 +1,55 @@
+{
+  "$ref": "#/definitions/scripts",
+  "definitions": {
+    "scripts": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+            "powershell",
+            "cmd",
+            "batch",
+            "registry"
+          ]
+        },
+        "pillar": {
+          "type": "string",
+          "enum": [
+            "troubleshooting",
+            "scripting",
+            "deployment",
+            "security",
+            "packaging",
+            "career"
+          ]
+        },
+        "publishedAt": {
+          "type": "string"
+        },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "language",
+        "pillar",
+        "publishedAt"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

@@ -4,7 +4,6 @@ const articles = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
     description: z.string(),
     publishedAt: z.string(),
     updatedAt: z.string().optional(),
@@ -22,7 +21,6 @@ const scripts = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
     description: z.string(),
     language: z.enum(['powershell', 'cmd', 'batch', 'registry']),
     pillar: z.enum(['troubleshooting', 'scripting', 'deployment', 'security', 'packaging', 'career']),
