@@ -5,8 +5,35 @@
     <link>https://zakitpro.com</link>
     <description>Technical articles, PowerShell scripts, and career guides for endpoint engineers</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 06:08:27 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 18:30:42 GMT</lastBuildDate>
     <atom:link href="https://zakitpro.com/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title><![CDATA[Windows Autopilot Part 1: Prerequisites & Getting Started]]></title>
+      <link>https://zakitpro.com/deployment/autopilot-part-1-prerequisites/</link>
+      <guid isPermaLink="true">https://zakitpro.com/deployment/autopilot-part-1-prerequisites/</guid>
+      <description><![CDATA[Learn what you need before starting with Windows Autopilot — from licenses to account setup.]]></description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Deployment & Imaging</category>
+    </item>
+    
+    <item>
+      <title><![CDATA[Windows Autopilot Part 2: Register Devices & Create Profiles]]></title>
+      <link>https://zakitpro.com/deployment/autopilot-part-2-registration-profiles/</link>
+      <guid isPermaLink="true">https://zakitpro.com/deployment/autopilot-part-2-registration-profiles/</guid>
+      <description><![CDATA[Learn how to register devices in Intune and create Autopilot deployment profiles.]]></description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Deployment & Imaging</category>
+    </item>
+    
+    <item>
+      <title><![CDATA[Windows Autopilot Part 3: Testing & Troubleshooting]]></title>
+      <link>https://zakitpro.com/deployment/autopilot-part-3-testing-troubleshooting/</link>
+      <guid isPermaLink="true">https://zakitpro.com/deployment/autopilot-part-3-testing-troubleshooting/</guid>
+      <description><![CDATA[Test your Autopilot deployment, verify device enrollment, and fix common issues.]]></description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Deployment & Imaging</category>
+    </item>
     
     <item>
       <title><![CDATA[Active Directory Group Management Scripts]]></title>
@@ -18,19 +45,19 @@
     </item>
     
     <item>
-      <title><![CDATA[Certificate Management in Windows]]></title>
-      <link>https://zakitpro.com/security/certificate-management-windows/</link>
-      <guid isPermaLink="true">https://zakitpro.com/security/certificate-management-windows/</guid>
-      <description><![CDATA[Managing certificates in Windows. SSL, code signing, and enterprise PKI. PowerShell certificate operations.]]></description>
+      <title><![CDATA[BitLocker Recovery Keys: The Complete Guide]]></title>
+      <link>https://zakitpro.com/security/bitlocker-recovery-keys-guide/</link>
+      <guid isPermaLink="true">https://zakitpro.com/security/bitlocker-recovery-keys-guide/</guid>
+      <description><![CDATA[Managing BitLocker recovery keys in enterprise environments. Backup, recovery, and automation with Intune.]]></description>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <category>Endpoint Security</category>
     </item>
     
     <item>
-      <title><![CDATA[BitLocker Recovery Keys: The Complete Guide]]></title>
-      <link>https://zakitpro.com/security/bitlocker-recovery-keys-guide/</link>
-      <guid isPermaLink="true">https://zakitpro.com/security/bitlocker-recovery-keys-guide/</guid>
-      <description><![CDATA[Managing BitLocker recovery keys in enterprise environments. Backup, recovery, and automation with Intune.]]></description>
+      <title><![CDATA[Certificate Management in Windows]]></title>
+      <link>https://zakitpro.com/security/certificate-management-windows/</link>
+      <guid isPermaLink="true">https://zakitpro.com/security/certificate-management-windows/</guid>
+      <description><![CDATA[Managing certificates in Windows. SSL, code signing, and enterprise PKI. PowerShell certificate operations.]]></description>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <category>Endpoint Security</category>
     </item>
@@ -81,21 +108,21 @@
     </item>
     
     <item>
-      <title><![CDATA[Getting Started with PowerShell]]></title>
-      <link>https://zakitpro.com/scripting/getting-started-with-powershell/</link>
-      <guid isPermaLink="true">https://zakitpro.com/scripting/getting-started-with-powershell/</guid>
-      <description><![CDATA[A comprehensive guide for IT professionals to get started with PowerShell scripting and automation.]]></description>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <category>Scripting & Automation</category>
-    </item>
-    
-    <item>
       <title><![CDATA[Fix Intune Access Denied Errors]]></title>
       <link>https://zakitpro.com/deployment/intune-access-denied-fix/</link>
       <guid isPermaLink="true">https://zakitpro.com/deployment/intune-access-denied-fix/</guid>
       <description><![CDATA[Resolving Access Denied errors when managing Intune devices. Step-by-step troubleshooting for the most common permission issues.]]></description>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <category>Deployment & Imaging</category>
+    </item>
+    
+    <item>
+      <title><![CDATA[Getting Started with PowerShell]]></title>
+      <link>https://zakitpro.com/scripting/getting-started-with-powershell/</link>
+      <guid isPermaLink="true">https://zakitpro.com/scripting/getting-started-with-powershell/</guid>
+      <description><![CDATA[A comprehensive guide for IT professionals to get started with PowerShell scripting and automation.]]></description>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+      <category>Scripting & Automation</category>
     </item>
     
     <item>
@@ -117,10 +144,28 @@
     </item>
     
     <item>
+      <title><![CDATA[Intune Device Wipe and Retire]]></title>
+      <link>https://zakitpro.com/deployment/intune-device-wipe-retire/</link>
+      <guid isPermaLink="true">https://zakitpro.com/deployment/intune-device-wipe-retire/</guid>
+      <description><![CDATA[How to wipe, retire, or factory reset devices in Microsoft Intune. Complete guide for device lifecycle management.]]></description>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+      <category>Deployment & Imaging</category>
+    </item>
+    
+    <item>
       <title><![CDATA[Fix Intune Enrollment Errors]]></title>
       <link>https://zakitpro.com/deployment/intune-enrollment-errors-fix/</link>
       <guid isPermaLink="true">https://zakitpro.com/deployment/intune-enrollment-errors-fix/</guid>
       <description><![CDATA[Troubleshoot common Intune enrollment errors. Get your Windows devices enrolled and managed quickly.]]></description>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+      <category>Deployment & Imaging</category>
+    </item>
+    
+    <item>
+      <title><![CDATA[Fix Intune Stuck in Sync Loop]]></title>
+      <link>https://zakitpro.com/deployment/intune-stuck-sync-fixer/</link>
+      <guid isPermaLink="true">https://zakitpro.com/deployment/intune-stuck-sync-fixer/</guid>
+      <description><![CDATA[Troubleshooting devices stuck in sync loops in Microsoft Intune. Get your endpoints back to a managed state quickly.]]></description>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <category>Deployment & Imaging</category>
     </item>
@@ -139,51 +184,6 @@
       <link>https://zakitpro.com/scripting/microsoft-graph-api-intune/</link>
       <guid isPermaLink="true">https://zakitpro.com/scripting/microsoft-graph-api-intune/</guid>
       <description><![CDATA[Automate Intune with Microsoft Graph API. PowerShell scripts for device management, policy deployment, and reporting.]]></description>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <category>Scripting & Automation</category>
-    </item>
-    
-    <item>
-      <title><![CDATA[Intune Device Wipe and Retire]]></title>
-      <link>https://zakitpro.com/deployment/intune-device-wipe-retire/</link>
-      <guid isPermaLink="true">https://zakitpro.com/deployment/intune-device-wipe-retire/</guid>
-      <description><![CDATA[How to wipe, retire, or factory reset devices in Microsoft Intune. Complete guide for device lifecycle management.]]></description>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <category>Deployment & Imaging</category>
-    </item>
-    
-    <item>
-      <title><![CDATA[Network Sharing Troubleshooting Guide]]></title>
-      <link>https://zakitpro.com/troubleshooting/network-sharing-troubleshooting/</link>
-      <guid isPermaLink="true">https://zakitpro.com/troubleshooting/network-sharing-troubleshooting/</guid>
-      <description><![CDATA[Fix Windows network sharing issues. File sharing, printer sharing, and network discovery problems solved.]]></description>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <category>Windows Troubleshooting</category>
-    </item>
-    
-    <item>
-      <title><![CDATA[PowerShell Error Handling Best Practices]]></title>
-      <link>https://zakitpro.com/scripting/powershell-error-handling/</link>
-      <guid isPermaLink="true">https://zakitpro.com/scripting/powershell-error-handling/</guid>
-      <description><![CDATA[Write robust PowerShell scripts with proper error handling. Try/Catch, -ErrorAction, and logging strategies.]]></description>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <category>Scripting & Automation</category>
-    </item>
-    
-    <item>
-      <title><![CDATA[Fix Intune Stuck in Sync Loop]]></title>
-      <link>https://zakitpro.com/deployment/intune-stuck-sync-fixer/</link>
-      <guid isPermaLink="true">https://zakitpro.com/deployment/intune-stuck-sync-fixer/</guid>
-      <description><![CDATA[Troubleshooting devices stuck in sync loops in Microsoft Intune. Get your endpoints back to a managed state quickly.]]></description>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <category>Deployment & Imaging</category>
-    </item>
-    
-    <item>
-      <title><![CDATA[Password Reset Scripts for IT]]></title>
-      <link>https://zakitpro.com/scripting/password-reset-scripts-it/</link>
-      <guid isPermaLink="true">https://zakitpro.com/scripting/password-reset-scripts-it/</guid>
-      <description><![CDATA[Essential PowerShell scripts for password reset operations. Active Directory password management made easy.]]></description>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <category>Scripting & Automation</category>
     </item>

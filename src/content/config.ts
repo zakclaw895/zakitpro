@@ -29,7 +29,18 @@ const scripts = defineCollection({
   })
 });
 
+const series = defineCollection({
+  type: 'content',
+  schema: z.object({
+    name: z.string(),
+    description: z.string(),
+    publishedAt: z.string(),
+    pillar: z.enum(['troubleshooting', 'scripting', 'deployment', 'security', 'packaging', 'career'])
+  })
+});
+
 export const collections = {
   articles,
-  scripts
+  scripts,
+  series
 };
