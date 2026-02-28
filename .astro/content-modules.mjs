@@ -1,8 +1,7 @@
 
 export default new Map([
-["src/content/scripts/remove-old-user-profiles.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Fscripts%2Fremove-old-user-profiles.mdx&astroContentModuleFlag=true")],
-["src/content/articles/active-directory-group-management.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Factive-directory-group-management.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/bitlocker-recovery-keys-guide.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fbitlocker-recovery-keys-guide.mdx&astroContentModuleFlag=true")],
+["src/content/articles/active-directory-group-management.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Factive-directory-group-management.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/certificate-management-windows.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fcertificate-management-windows.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/cis-benchmark-hardening-windows.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fcis-benchmark-hardening-windows.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/common-bsod-error-codes.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fcommon-bsod-error-codes.mdx&astroContentModuleFlag=true")],
@@ -11,6 +10,7 @@ export default new Map([
 ["src/content/articles/fix-user-profile-corruption.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Ffix-user-profile-corruption.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/getting-started-with-powershell.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fgetting-started-with-powershell.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/intune-access-denied-fix.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fintune-access-denied-fix.mdx&astroContentModuleFlag=true")],
+["src/content/scripts/remove-old-user-profiles.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Fscripts%2Fremove-old-user-profiles.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/intune-compliance-policies.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fintune-compliance-policies.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/intune-device-restriction-profiles.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fintune-device-restriction-profiles.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/intune-device-wipe-retire.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fintune-device-wipe-retire.mdx&astroContentModuleFlag=true")],
